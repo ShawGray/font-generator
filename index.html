@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Crafty+Girls&family=Creepster&family=Major+Mono+Display&family=MedievalSharp&family=Mynerve&family=Nova+Slim&family=Pacifico&family=Red+Hat+Mono&family=Silkscreen&family=Snowburst+One&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="flex justify-between my-5 mx-8">
+
+        <input type="text" id="generationInput" class="border-solid border-purple-700 border-2 rounded-lg h-10 w-4/5 px-2">
+
+        <button id="generateFont" class="mx-8 text-purple-700 hover:text-white border border-2 border-purple-700 hover:bg-purple-800 font-semibold rounded-lg text-sm px-5 py-2.5 text-center dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 transition-all ease-in duration-300">GENERATE</button>
+    
+    </div>
+
+    <div class="mx-8">
+
+        <div class="my-6 flex justify-between">
+            <a href="" class="text-purple-700 border-solid border-2 border-purple-700 w-[10rem] text-center text-xl p-2 hover:text-white hover:bg-purple-800 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 transition-all ease-in duration-300">
+                Chakra Petch
+            </a>
+            <p class="generatedFont w-[80%] text-3xl align-middle" style="font-family: 'Chakra Petch', sans-serif;" id="p1"></p>
+        </div>
+        <div class="my-6 flex justify-between">
+            <a href="" class="text-purple-700 border-solid border-2 border-purple-700 w-[10rem] text-center text-xl p-2 hover:text-white hover:bg-purple-800 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 transition-all ease-in duration-300">
+                Creepster
+            </a>
+            <p class="generatedFont w-[80%] text-3xl align-middle" style="font-family: 'Creepster', cursive;" id="p2"></p>
+        </div>
+        <div class="my-6 flex justify-between">
+            <a href="" class="text-purple-700 border-solid border-2 border-purple-700 w-[10rem] text-center text-xl p-2 hover:text-white hover:bg-purple-800 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 transition-all ease-in duration-300">
+                MedievalSharp
+            </a>
+            <p class="generatedFont w-[80%] text-3xl align-middle" style="font-family: 'MedievalSharp', cursive;" id="p3"></p>
+        </div>
+        <div class="my-6 flex justify-between">
+            <a href="" class="text-purple-700 border-solid border-2 border-purple-700 w-[10rem] text-center text-xl p-2 hover:text-white hover:bg-purple-800 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 transition-all ease-in duration-300">
+                Mynerve
+            </a>
+            <p class="generatedFont w-[80%] text-3xl align-middle" style="font-family: 'Mynerve', cursive;" id="p4"></p>
+        </div>
+        <div class="my-6 flex justify-between">
+            <a href="" class="text-purple-700 border-solid border-2 border-purple-700 w-[10rem] text-center text-xl p-2 hover:text-white hover:bg-purple-800 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 transition-all ease-in duration-300">
+                Pacifico
+            </a>
+            <p class="generatedFont w-[80%] text-3xl align-middle" style="font-family: 'Pacifico', cursive;" id="p5"></p>
+        </div>
+        <div class="my-6 flex justify-between">
+            <a href="" class="text-purple-700 border-solid border-2 border-purple-700 w-[10rem] text-center text-xl p-2 hover:text-white hover:bg-purple-800 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 transition-all ease-in duration-300">
+                Crafty Girls
+            </a>
+            <p class="generatedFont w-[80%] text-3xl align-middle" style="font-family: 'Crafty Girls', cursive;" id="p1"></p>
+        </div>
+        <div class="my-6 flex justify-between">
+            <a href="" class="text-purple-700 border-solid border-2 border-purple-700 w-[10rem] text-center text-xl p-2 hover:text-white hover:bg-purple-800 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 transition-all ease-in duration-300">
+                Major Mono
+            </a>
+            <p class="generatedFont w-[80%] text-3xl align-middle" style="font-family: 'Major Mono Display', monospace;" id="p1"></p>
+        </div>
+        <div class="my-6 flex justify-between">
+            <a href="" class="text-purple-700 border-solid border-2 border-purple-700 w-[10rem] text-center text-xl p-2 hover:text-white hover:bg-purple-800 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 transition-all ease-in duration-300">
+                Nova Slim
+            </a>
+            <p class="generatedFont w-[80%] text-3xl align-middle" style="font-family: 'Nova Slim', cursive;" id="p1"></p>
+        </div>
+        <div class="my-6 flex justify-between">
+            <a href="" class="text-purple-700 border-solid border-2 border-purple-700 w-[10rem] text-center text-xl p-2 hover:text-white hover:bg-purple-800 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 transition-all ease-in duration-300">
+                Red Hat
+            </a>
+            <p class="generatedFont w-[80%] text-3xl align-middle" style="font-family: 'Red Hat Mono', monospace;" id="p1"></p>
+        </div>
+        <div class="my-6 flex justify-between">
+            <a href="" class="text-purple-700 border-solid border-2 border-purple-700 w-[10rem] text-center text-xl p-2 hover:text-white hover:bg-purple-800 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 transition-all ease-in duration-300">
+                Snowburst
+            </a>
+            <p class="generatedFont w-[80%] text-3xl align-middle" style="font-family: 'Snowburst One', cursive;" id="p1"></p>
+        </div>
+
+    </div>
+
+    <script src="scripts\main.js"></script>
+
+</body>
+</html>
